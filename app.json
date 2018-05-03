@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/demo/demo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SimpleMap",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+	"downloadFile": 5000
+  }
+}

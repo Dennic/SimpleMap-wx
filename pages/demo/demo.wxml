@@ -1,0 +1,18 @@
+<!--pages/demo/demo.wxml-->
+<import src="/simplemap/simplemap.wxml"/>
+
+<view class="search-bar">
+	<input class="search-input" confirm-type="search" bindconfirm="onInput" bindinput="onInput" value="{{searchValue}}"></input>
+	<view class="search-btn" hover-class="search-btn-hover" hover-stay-time="0" catchtap="onSearch">{{showMap ? "搜索" : "取消"}}</view>
+</view>
+<scroll-view wx:if="{{!showMap}}" scroll-y="true" class="search-result-board">
+	<block wx:for="{{results}}" wx:for-item="result" wx:key="tag">
+		<view class="search-result" hover-class="search-result-hover" hover-stay-time="0" data-tag="{{result.tag}}" catchtap="selectResult">{{result.tag}}</view>
+	</block>
+</scroll-view>
+
+<view id="map"	hidden="{{!showMap}}">
+	<template is="SimpleMap" data="{{...map}}"/>
+</view>
+
+  <!-- <canvas canvas-id='myCanvas' style='width:750rpx;height:750rpx'></canvas>   -->

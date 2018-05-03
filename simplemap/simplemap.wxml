@@ -1,0 +1,10 @@
+<template name="SimpleMap">
+	<block wx:if="{{simplemapShow}}">
+		<canvas style="width: 0px; height: 0px;" canvas-id="simplemap-measure"></canvas>
+		<canvas id="simplemapCanvas" style="width: {{simplemapWidth}}px; height: {{simplemapHeight}}px;" canvas-id="simplemap" disable-scroll="true" 
+			bindtouchstart="simplemapTouchStart"
+			bindtouchmove="simplemapTouchMove"
+			bindtouchend="simplemapTouchEnd"
+			bindtouchcancel="simplemapTouchCancel"></canvas>
+	</block>
+</template>

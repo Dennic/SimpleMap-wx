@@ -1,0 +1,64 @@
+/* pages/demo/demo.wxss */
+
+#map {
+	position: absolute;
+	top: 100rpx;
+	left: 0;
+	right: 0;
+	bottom: 0; 
+}
+
+.search-bar{
+	position: absolute;
+	top: 0;
+	height: 100rpx;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 20rpx 20rpx 0 20rpx;
+}
+
+.search-bar > .search-input{
+	display: inline-block;
+	background-color: #F0F9FF;
+	border: 1rpx #CDCDCD solid;
+	border-radius: 10rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 610rpx;
+	box-sizing: border-box;
+	padding: 0 20rpx 0 20rpx;
+	font-size: 0.9em;
+	vertical-align: middle;   
+}
+
+.search-bar > .search-btn{
+	display: inline-block;
+	height: 60rpx;
+	width: 120rpx;
+	padding: 0;
+	font-size: 0.9em;
+	text-align: center;
+	line-height: 60rpx;
+	vertical-align: middle;
+	color: #5599FF;
+}
+.search-bar > .search-btn-hover{
+	color: #151988;
+}
+
+.search-result-board {
+	position: absolute;
+	top: 100rpx;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.search-result-board .search-result {
+	padding: 20rpx 40rpx 20rpx 40rpx;
+	border-top: 1rpx solid #E0E0E0;
+	background-color: #FFF;
+	color: #555;
+}
+.search-result-board .search-result-hover {
+	background-color: #F0F0F0;
+}
