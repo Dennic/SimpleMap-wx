@@ -131,6 +131,31 @@ btnZoomIn.setClickCallback(widget => {
 map.addWidget(btnZoomIn)
 ```
 
+## 类目录结构
+
++ SimpleMap
++ Layer
+	+ MapLayer  			-- *单一图片地图图层*
+	+ TileMapLayer			-- *瓦片地图图层*
+	+ MarkLayer				-- *标记图层
+	+ MarkGroupLayer		*标记组图层
++ Widget
+	+ Button				-- *按钮组件*
+	+ ImageButton			-- *图标按钮组件*
+	+ ButtonGroup			-- *按钮组组件*
+	+ Text					-- *文字组件*
+	+ Image					-- *图片组件*
++ Utils
+	+ Convert				-- *单位转换和测量工具*
+	+ Math					-- *数学计算工具*
+	+ Region				-- *区块工具*
+	+ Matrix				-- *矩阵工具*
+	+ Slider				-- *惯性滑动工具*
+	+ Touch					-- *触摸管理工具*
+	+ Renderer				-- *渲染工具*
+	+ Downloader			-- *文件下载和缓存工具*
+	+ Tile					-- *瓦片图管理工具*
+
 ## 部分类方法参数说明
 
 > 详细的类方法说明文档正在编辑中......
