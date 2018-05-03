@@ -143,8 +143,8 @@ map.addWidget(btnZoomIn)
 + Layer
 	+ MapLayer  			-- *单一图片地图图层*
 	+ TileMapLayer			-- *瓦片地图图层*
-	+ MarkLayer				-- *标记图层
-	+ MarkGroupLayer		*标记组图层
+	+ MarkLayer				-- *标记图层*
+	+ MarkGroupLayer		-- *标记组图层*
 + Widget
 	+ Button				-- *按钮组件*
 	+ ImageButton			-- *图标按钮组件*
