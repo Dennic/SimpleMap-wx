@@ -11,8 +11,6 @@
 	</block>
 </scroll-view>
 
-<view id="map"	hidden="{{!showMap}}">
+<view id="map"	hidden="{{!showMap}}"> 
 	<template is="SimpleMap" data="{{...map}}"/>
 </view>
-
-  <!-- <canvas canvas-id='myCanvas' style='width:750rpx;height:750rpx'></canvas>   -->

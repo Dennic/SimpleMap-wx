@@ -44,18 +44,29 @@ class SimpleMap {
 		wx.createSelectorQuery().select("#" + this.name).fields({
 			size: true
 		}, res => {
-			that.width = res.width
-			that.height = res.height
+			let width
+			let height
+			if (res == null){
+				const systemInfo = wx.getSystemInfoSync()
+				width = systemInfo.windowWidth
+				height = systemInfo.windowHeight
+			} else {
+				width = res.width
+				height = res.height
+			}
+
+			that.width = width
+			that.height = height
 
 			const data = {}
 			data[this.name] = {
-				simplemapWidth: res.width,
-				simplemapHeight: res.height,
+				simplemapWidth: width,
+				simplemapHeight: height,
 				simplemapShow: true
 			}
 			that.page.setData(data)
 
-			that.touchManager.setWindowSize(res.width, res.height)
+			that.touchManager.setWindowSize(width, height)
 
 			that._measured = true
 			that.show()
@@ -63,8 +74,8 @@ class SimpleMap {
 			if (that._readyCallback != null) {
 				that._readyCallback({
 					map: that,
-					width: that.height,
-					height: that.height
+					width: height,
+					height: height
 				})
 			}
 		}).exec()
