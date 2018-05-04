@@ -233,6 +233,20 @@ map.addWidget(btnZoomIn)
 
 ----------
 
+### Layer.TileMapLayer(map, width, height) 
+
+#### 瓦片地图图层
+
+##### 构造函数参数说明：
+
+| 参数   | 类型    |  必须   |  说明  |
+| :----- | :------ | :----- | :----- |
+| map   | Object  |   是   | SimpleMap 地图组件对象   |
+| width   | Number  |   是   | 地图图层宽度  |
+| height   | Number  |   是   | 地图图层高度  |
+
+----------
+
 ### Layer.MarkLayer(map, path, x, y, width, height) 
 
 #### 地图标记图层
