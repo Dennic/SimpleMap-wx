@@ -23,7 +23,7 @@
 	+ [添加标记图层](#7-向地图组件中添加-mark-标记图层)
 	+ [添加按钮部件](#8-向地图组件中添加-ui-按钮部件)
 + [类目录结构](#类目录结构)
-+ [部分类方法参数说明](#部分类方法参数说明)
++ [部分类方法参数说明](#部分类构造方法说明)
 	+ [SimpleMap](#simplemappage-name-options-readycallback)
 	+ [Layer](#layermaplayermap-path-width-height)
 		+ [MapLayer](#layermaplayermap-path-width-height)
@@ -184,7 +184,7 @@ map.addWidget(btnZoomIn)
 	+ Downloader			-- *文件下载和缓存工具*
 	+ Tile					-- *瓦片图管理工具*
 
-## 部分类方法参数说明
+## 部分类构造方法说明
 
 > 详细的类方法说明文档正在编辑中......
 
