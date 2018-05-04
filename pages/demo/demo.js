@@ -106,8 +106,8 @@ Page({
 		})
 
 		// 配置缩放按钮
-		const btnZoomIn = new Widget.ImageButton(map, map.width - Rpx(140), map.height - Rpx(336), "/zoom-in.png", Rpx(36), Rpx(36))
-		const btnZoomOut = new Widget.ImageButton(map, map.width - Rpx(140), map.height - Rpx(220), "/zoom-out.png", Rpx(36), Rpx(36))
+		const btnZoomIn = new Widget.ImageButton(map, map.width - Rpx(140), map.height - Rpx(336), "/resource/zoom-in.png", Rpx(36), Rpx(36))
+		const btnZoomOut = new Widget.ImageButton(map, map.width - Rpx(140), map.height - Rpx(220), "/resource/zoom-out.png", Rpx(36), Rpx(36))
 		btnZoomIn.setPadding(Rpx(20))
 		btnZoomOut.setPadding(Rpx(20))
 		btnZoomIn.setClickCallback(widget => {
@@ -131,7 +131,7 @@ Page({
 		map.addWidget(text)
 
 		// 配置并添加指北针图标
-		const image = new Widget.Image(map, "/north.png", 16, 16, 32, 32)
+		const image = new Widget.Image(map, "/resource/north.png", 16, 16, 32, 32)
 		map.addWidget(image)
 
 		// 在线获取地图标记列表并添加Mark图层到地图
@@ -160,7 +160,7 @@ Page({
 					mark.setClickCallback(e => {
 						clearClick()
 						e.target.setTextSize(14)
-						e.target.setIcon("/position.png", 24, 32)
+						e.target.setIcon("/resource/position.png", 24, 32)
 						e.target.setOffset(-12, -32)
 						map.setLocation(e.target.x, e.target.y)
 						map.setZoom(e.target.getShowZoom())
