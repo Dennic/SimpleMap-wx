@@ -19,11 +19,11 @@
 
 ## 简单使用
 
-1. 可以选择 `clone` 或下载此仓库到本地。
+#### 1. 可以选择 `clone` 或下载此仓库到本地。
 
-2. 将 simplemap 目录复制到你的项目根目录下（不必须，可以放到任意位置，但要注意引入模块时的路径）。
+#### 2. 将 simplemap 目录复制到你的项目根目录下（不必须，可以放到任意位置，但要注意引入模块时的路径）。
 
-3. 编辑要使用 SimpleMap 地图的页面 wxml 布局文件，添加以下代码。
+#### 3. 编辑要使用 SimpleMap 地图的页面 wxml 布局文件，添加以下代码。
 
 ```html
 <import src="/simplemap/simplemap.wxml"/>
@@ -43,7 +43,7 @@
 </view>
 ```
 
-4. 编辑页面的 js 文件，在代码顶部引入 SimpleMap 和其他相关类。
+#### 4. 编辑页面的 js 文件，在代码顶部引入 SimpleMap 和其他相关类。
 
 ```javascript
 // 需改为在项目中的实际路径（相对路径）
@@ -52,7 +52,7 @@ const Layer = require("../../simplemap/layers/Layer") // 图层模块包
 const Widget = require("../../simplemap/widgets/Widget") // UI 部件模块包
 ```
 
-5. 分别在 onLoad、onShow、onHide 和 onUnload 回调函数中添加代码，对 SimpleMap 进行初始化、开始绘制、暂停绘制和结束绘制的操作。
+#### 5. 分别在 onLoad、onShow、onHide 和 onUnload 回调函数中添加代码，对 SimpleMap 进行初始化、开始绘制、暂停绘制和结束绘制的操作。
 
 ```javascript
 onMapReady: function(res){
@@ -85,7 +85,7 @@ onUnload: function () {
 }
 ```
 
-6. （推荐）在 readyCallback 回调函数中设置地图图层。
+#### 6. （推荐）在 readyCallback 回调函数中设置地图图层。
 
 ```javascript
 onMapReady: function(res){
@@ -101,7 +101,7 @@ onMapReady: function(res){
 }
 ```
 
-7. 向地图组件中添加 Mark 标记图层。
+#### 7. 向地图组件中添加 Mark 标记图层。
 
 ```javascript
 // 实例化一个新的 Mark 标签，传入标签在地图中的坐标
@@ -130,7 +130,7 @@ mark.setLongTapCallback(e => {
 map.addLayer(mark)
 ```
 
-8. 向地图组件中添加 UI 按钮部件。
+#### 8. 向地图组件中添加 UI 按钮部件。
 
 ```javascript
 // 实例化一个新的按钮部件，传入按钮位置和按钮文字。
