@@ -16,8 +16,8 @@
 
 ----------
 
-+  [详细文档](#详细文档)
-+  [简单使用](#简单使用)
++ [详细文档](#详细文档)
++ [简单使用](#简单使用)
 	+ [添加组件到 wxml](#3-编辑要使用-simplemap-地图的页面-wxml-布局文件添加以下代码)
 	+ [在 js 中初始化](#5-分别在-onloadonshowonhide-和-onunload-回调函数中添加代码对-simplemap-进行初始化开始绘制暂停绘制和结束绘制的操作)
 	+ [地图组件准备完成](#6-推荐在-readycallback-回调函数中设置地图图层)
@@ -36,7 +36,7 @@
 
 ## 详细文档
 
-[查看详细文档](#https://github.com/Dennic/SimpleMap-wx/wiki)
+[查看详细文档](https://github.com/Dennic/SimpleMap-wx/wiki)
 
 ## 简单使用
 
