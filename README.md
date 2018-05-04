@@ -14,6 +14,8 @@
 > [无法加载动图？点击这里](http://7xs16i.com1.z0.glb.clouddn.com/GIF-180504_111653.gif)<br/>
 > ![演示动图](http://7xs16i.com1.z0.glb.clouddn.com/GIF-180504_111653.gif)
 
+----------
+
 +  [简单使用](#简单使用)
 	+ [添加组件到 wxml](#3-编辑要使用-simplemap-地图的页面-wxml-布局文件添加以下代码)
 	+ [在 js 中初始化](#5-分别在-onloadonshowonhide-和-onunload-回调函数中添加代码对-simplemap-进行初始化开始绘制暂停绘制和结束绘制的操作)
