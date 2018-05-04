@@ -27,6 +27,7 @@
 	+ [SimpleMap](#simplemappage-name-options-readycallback)
 	+ [Layer](#layermaplayermap-path-width-height)
 		+ [MapLayer](#layermaplayermap-path-width-height)
+		+ [TileMapLayer](#layertilemaplayermap-width-height)
 		+ [MarkLayer](#layermarklayermap-path-x-y-width-height)
 	+ [Widget](#widgetbuttonmap-x-y-text-textsize-padding)
 		+ [Button](#widgetbuttonmap-x-y-text-textsize-padding)
