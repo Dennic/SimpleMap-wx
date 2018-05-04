@@ -13,9 +13,21 @@
 >
 > ![演示动图](http://7xs16i.com1.z0.glb.clouddn.com/GIF-180504_111653.gif)
 
-+ [简单使用](#简单使用)
++  [简单使用](#简单使用)
+	+ [添加组件到 wxml](#3-编辑要使用-simplemap-地图的页面-wxml-布局文件添加以下代码)
+	+ [在 js 中初始化](#5-分别在-onloadonshowonhide-和-onunload-回调函数中添加代码对-simplemap-进行初始化开始绘制暂停绘制和结束绘制的操作)
+	+ [地图组件准备完成](#6-推荐在-readycallback-回调函数中设置地图图层)
+	+ [添加标记图层](#7-向地图组件中添加-mark-标记图层)
+	+ [添加按钮部件](#8-向地图组件中添加-ui-按钮部件)
 + [类目录结构](#类目录结构)
 + [部分类方法参数说明](#部分类方法参数说明)
+	+ [SimpleMap](#simplemappage-name-options-readycallback)
+	+ [Layer](#layermaplayermap-path-width-height)
+		+ [MapLayer](#layermaplayermap-path-width-height)
+		+ [MarkLayer](#layermarklayermap-path-x-y-width-height)
+	+ [Widget](#widgetbuttonmap-x-y-text-textsize-padding)
+		+ [Button](#widgetbuttonmap-x-y-text-textsize-padding)
+		+ [ImageButton](#widgetimagebuttonmap-x-y-path-width-height-padding)
 
 ## 简单使用
 
