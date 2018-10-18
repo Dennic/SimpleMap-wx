@@ -11,8 +11,8 @@
 > 
 > 微信小程序“小恐龙课程表” —— 校园地图功能
 >
-> [无法加载动图？点击这里](http://7xs16i.com1.z0.glb.clouddn.com/GIF-180504_111653.gif)<br/>
-> ![演示动图](http://7xs16i.com1.z0.glb.clouddn.com/GIF-180504_111653.gif)
+> [无法加载动图？点击这里](https://dennic365.com/dino/static/GIF-180504_111653.gif)<br/>
+> ![演示动图](https://dennic365.com/dino/static/GIF-180504_111653.gif)
 
 ----------
 
